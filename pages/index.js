@@ -20,6 +20,7 @@ export default function Home() {
   // TODO: Make the call to the API to get all the members on component render
   useEffect(() => {
     getAllTheMembers();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
