@@ -18,5 +18,10 @@ a {
 }
 
 body {
-  background-color: #88effd;
+  background-color: #272829;
+}
+
+.card.custom-class {
+  color:black;
+  box-shadow: 10px 5px 5px red;
 }
