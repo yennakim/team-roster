@@ -55,7 +55,7 @@ const createMember = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// TODO: UPDATE BOOK
+// TODO: UPDATE MEMBER
 const updateMember = (payload) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/members/${payload.firebaseKey}.json`, {
     method: 'PATCH',
