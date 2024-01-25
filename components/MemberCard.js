@@ -12,7 +12,7 @@ export default function MemberCard({ memberObj, onUpdate }) {
   };
 
   return (
-    <Card style={{ width: '18rem', margin: '10px' }}>
+    <Card className="custom-class" style={{ width: '18rem', margin: '10px' }}>
       <Card.Img variant="top" src={memberObj.image} alt={memberObj.name} style={{ height: '400px' }} />
       <Card.Body>
         <Card.Title>{memberObj.name}</Card.Title>
