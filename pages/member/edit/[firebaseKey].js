@@ -9,7 +9,7 @@ export default function EditMember() {
   // TODO: grab the firebasekey
   const { firebaseKey } = router.query;
 
-  // TODO: make a call to the API to get the book data
+  // TODO: make a call to the API to get the member data
   useEffect(() => {
     getSingleMember(firebaseKey).then(setEditItem);
   }, [firebaseKey]);
